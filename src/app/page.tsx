@@ -1,7 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Button } from "./Components/Button";
-import { BigButton } from "./Components/BigButton";
+import { Button } from "./Components/Button/Button";
+import { BigButton } from "./Components/Button/BigButton";
+import { Header } from "./Components/Header/Header";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className={styles.description}> 
       <Button title="Normal Button" />
       <BigButton title="Big" />
+      <Header />
       </div>
     </main>
   );
