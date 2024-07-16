@@ -1,0 +1,18 @@
+.heartIcon {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-image: url('/heart-outline.svg');
+  background-size: cover;
+  transition: transform 0.2s, background-image 0.2s;
+}
+
+.heartIcon.liked {
+  background-image: url('/heart-filled.svg');
+}
+
+.heartIcon:active {
+  transform: scale(1.2);
+}
