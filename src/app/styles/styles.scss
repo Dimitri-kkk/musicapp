@@ -20,13 +20,13 @@
   width: 150px;
   border: none;
 
-  &.normal {
+  &.Primary {
     &:hover {
       background-color: $Dark_Purple_Color;
     }
   }
 
-  &.big {
+  &.Secondary {
     width: 250px;
     &:hover {
       background-color: $Dark_Purple_Color;
