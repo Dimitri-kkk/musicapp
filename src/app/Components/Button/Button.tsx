@@ -1,13 +1,20 @@
-import '../../styles/styles.scss'
+import styles from './Button.module.scss'
 
 type Props = {
     title: string;
-    type: 'Primary' | 'Secondary'
+    mode?: 'Normal' | 'Big'
 }
 export const Button = (props: Props) => {
+
+    const classes = [styles.Button]
+
+    if(props.mode == 'Big') classes.push(styles.Big)
+    else if(props.mode == 'Normal') classes.push(styles.Button)
+    else classes.push(styles.Normal)
+
     return(
-        <div className='Container'>
-            <button className={`Button ${props.type}`}>{props.title}</button>
+        <div className={classes.join(' ')}>
+            {props.title}
         </div>
     )
 }

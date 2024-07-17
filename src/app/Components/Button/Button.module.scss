@@ -1,35 +1,24 @@
 @import '../../styles/color.scss';
 
-.Container {
-  display: flex;
-  width: 316px;
-  justify-content: start;
-  align-items: start;
-  gap: 8px;
+.Button {
+    display: flex;
+    height: 48px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: $Slate_Blue_Color;
+    width: 150px;
+    border: none;
+    &:hover {
+          background-color: $Dark_Purple_Color;
+        }
 }
 
-.Button {
-  display: flex;
-  height: 48px;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 8px;
-  background-color: $Slate_Blue_Color;
-  width: 150px;
-  border: none;
-
-  &.Primary {
-    &:hover {
-      background-color: $Dark_Purple_Color;
-    }
-  }
-
-  &.Secondary {
+.Big {
     width: 250px;
     &:hover {
       background-color: $Dark_Purple_Color;
     }
   }
-}
