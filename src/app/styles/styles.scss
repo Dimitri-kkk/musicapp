@@ -1,0 +1,45 @@
+@import './color.scss';
+
+.Artist-Container{
+  display: flex;
+  width: 184px;
+  height: 211px;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: $Slate_Blue_Color;
+}
+
+.Artist-Picture{
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.Artist-Info-Container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 70px;
+  align-self: stretch;
+}
+
+.Artist-Name{
+  color: $White_Color;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Artist-Year{
+  color: $Dark_Gray_Color;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
