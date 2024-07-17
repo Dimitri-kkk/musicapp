@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Button } from "./Components/Button/Button";
-import './styles/styles.scss'
+import './Button.module.scss'
 
 export default function Home() {
   return (
