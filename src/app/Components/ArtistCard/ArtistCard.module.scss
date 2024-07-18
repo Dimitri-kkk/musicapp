@@ -1,13 +1,13 @@
 @import '../../styles/color.scss';
 
-.parent-container {
+.ParentContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; 
   }
   
-  .Artist-Container {
+  .ArtistContainer {
     display: flex;
     width: 180px;
     height: 210px;
@@ -26,14 +26,14 @@
     }
   }
   
-  .Artist-Picture {
+  .ArtistPicture {
     width: 150px;
     height: 155px;
     object-fit: cover; 
     border-radius: 16px;
   }
 
-  .Artist-Info-Container {
+  .ArtistInfoContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,7 +42,7 @@
     align-self: stretch;
   }
 
-  .Artist-Name {
+  .ArtistName {
     color: $White_Color;
     font-family: Inter;
     font-size: 16px;
@@ -51,7 +51,7 @@
     line-height: normal;
   }
   
-  .Artist-Year {
+  .ArtistYear {
     color: $Dark_Gray_Color;
     font-family: Inter;
     font-size: 14px;

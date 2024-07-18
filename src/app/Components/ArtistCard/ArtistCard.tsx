@@ -9,12 +9,12 @@ type Props = {
 }
 export const Artist = (props: Props) => {
     return(
-        <Link href='#' className="parent-container">
-        <div className={styles['Artist-Link']}>
-          <img src={props.url} alt={`${props.title} Picture`} className={styles['Artist-Picture']} />
-          <div className={styles['Artist-Info-Container']}>
-            <h1 className={styles['Artist-Name']}>{props.title}</h1>
-            <p className={styles['Artist-Year']}>{props.year}</p>
+        <Link href='#' className={styles.ParentContainer}>
+        <div className={styles.ArtistLink}>
+          <img src={props.url} alt={`${props.title} Picture`} className={styles.ArtistPicture} />
+          <div className={styles.ArtistInfoContainer}>
+            <h1 className={styles.ArtistName}>{props.title}</h1>
+            <p className={styles.ArtistYear}>{props.year}</p>
           </div>
         </div>
       </Link>
