@@ -10,7 +10,7 @@ type Props = {
 export const Artist = (props: Props) => {
     return(
         <Link href='#' className={styles.ParentContainer}>
-        <div className={styles.ArtistLink}>
+        <div className={styles.ArtistContainer}>
           <img src={props.url} alt='Album' className={styles.ArtistPicture} />
           <div className={styles.ArtistInfoContainer}>
             <h1 className={styles.ArtistName}>{props.title}</h1>
