@@ -1,0 +1,46 @@
+
+.songCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #fff;
+    width: 388px;
+  }
+  
+  .songDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .albumCover {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .songInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .songTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .artistName {
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+  
+  .heartIcon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+  
