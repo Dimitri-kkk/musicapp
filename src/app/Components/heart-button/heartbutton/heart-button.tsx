@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
+import style from './heart-button.module.scss';
 
 const HeartToggle = () => {
   const [liked, setLiked] = useState(false);
@@ -9,7 +10,7 @@ const HeartToggle = () => {
   };
 
   return (
-    <div onClick={toggleLike} style={{ cursor: 'pointer' }}>
+    <div onClick={toggleLike} className={style.heart}>
       <Image
         src={liked ? '/liked.svg' : '/not-liked.svg'}
         alt="Heart Icon"
