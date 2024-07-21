@@ -6,7 +6,7 @@ interface ButtonProps {
   mode: 'filled' | 'textOnly';
 }
 
-const PlaylistButton: React.FC<ButtonProps> = ({ initialText, mode }) => {
+const FillOrTextBtn: React.FC<ButtonProps> = ({ initialText, mode }) => {
   return (
     <button
       className={`${styles.btn} ${mode === 'filled' ? styles.filled : styles.textOnly}`}
@@ -16,5 +16,5 @@ const PlaylistButton: React.FC<ButtonProps> = ({ initialText, mode }) => {
   );
 };
 
-export default PlaylistButton;
+export default FillOrTextBtn;
 

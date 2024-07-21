@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import PlaylistButton from "./Components/FillOrTextButton/FillOrTextBtn";
+import FillOrTextBtn from "./Components/FillOrTextButton/FillOrTextBtn";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}> 
-      <PlaylistButton initialText="View playlist" mode="filled" />
-      <PlaylistButton initialText="View playlist" mode="textOnly" />
+      <FillOrTextBtn initialText="View playlist" mode="filled" />
+      <FillOrTextBtn initialText="View playlist" mode="textOnly" />
       </div>
     </main>
   );
