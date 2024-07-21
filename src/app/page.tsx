@@ -3,17 +3,12 @@
 'use client';
 import Image from "next/image";
 import styles from "./page.module.css";
-import HeartToggle from "./Components/heart-button/heartbutton/heart-button";
-// import { HeartButton } from "./Components/heart-button/heart-button";
-
+import { Button } from "./Components/Button/Button";
+import './Components/Button/Button.module.scss'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <HeartToggle/>
-  
-      </div>
     </main>
   );
 }
