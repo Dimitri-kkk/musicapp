@@ -1,0 +1,25 @@
+@import "../../styles/color.scss";
+
+.Container {
+  display: flex;
+  align-items: flex-start;
+  gap: 602px;
+  color: $Black_Color2;
+}
+
+.seeAll {
+  color: $Dark_Purple_Color;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sectionHeader {
+  color: $White_Color;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
