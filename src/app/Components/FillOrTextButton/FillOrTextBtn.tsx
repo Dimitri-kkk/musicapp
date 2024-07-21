@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from './playlistBtn.module.css';
+import styles from './FillOrTextBtn.module.css';
 
 interface ButtonProps {
   initialText: string;

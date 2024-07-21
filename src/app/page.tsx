@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import PlaylistButton from "./Components/Playlist-button/PlaylistBtn";
+import PlaylistButton from "./Components/FillOrTextButton/FillOrTextBtn";
 
 export default function Home() {
   return (
