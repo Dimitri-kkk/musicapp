@@ -1,10 +1,17 @@
 @import "../../styles/color.scss";
 .Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 796px;
   height: 299px;
   flex-shrink: 0;
   border-radius: 16px;
   background: linear-gradient(270deg, #e2934b 7.1%, #d3620f 94.73%);
+}
+.TitleContainer {
+  flex-direction: row;
+  display: flex;
 }
 .Title {
   width: 252px;
@@ -28,4 +35,8 @@
   padding: 14px 77px 15px 78px;
   justify-content: center;
   align-items: center;
+}
+.ArtistImage {
+  object-fit: cover;
+  display: flex;
 }

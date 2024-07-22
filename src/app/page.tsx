@@ -5,7 +5,12 @@ import { SectionTitle } from "./Components/TrendsHit/TrendsHit";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <SectionTitle title="Trending Artists" background="#ff69b4" year={2021} />
+      <SectionTitle
+        title="Trending Artists"
+        background="#ff69b4"
+        year={2021}
+        src="/Artist.png"
+      />
     </main>
   );
 }
