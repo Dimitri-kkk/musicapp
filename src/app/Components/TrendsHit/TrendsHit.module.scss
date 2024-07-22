@@ -1,0 +1,31 @@
+@import "../../styles/color.scss";
+.Container {
+  width: 796px;
+  height: 299px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(270deg, #e2934b 7.1%, #d3620f 94.73%);
+}
+.Title {
+  width: 252px;
+  color: $White_Color;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.year {
+  color: $White_Color;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Button {
+  display: inline-flex;
+  padding: 14px 77px 15px 78px;
+  justify-content: center;
+  align-items: center;
+}
