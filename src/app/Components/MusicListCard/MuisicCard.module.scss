@@ -1,0 +1,14 @@
+@import '../../styles/color.scss';
+
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.MainDiv{
+  background-color: $Black_Color;
+  width: 388px;
+  height: 72px;
+  border-radius: 8px;
+  display: flex;
+}
