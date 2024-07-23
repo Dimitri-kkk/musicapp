@@ -13,18 +13,22 @@ const MusicCard =(props:SongCardProps) =>{
   return(
     <div className={style.MainDiv}>
       <div className={style.FirstPart}>
-        <Image
-        src={props.src}
-        width={43}
-        height={43}
-        alt="MusicCard"
-        />
-        <div className={style.TextPart}>
-          <span>{props.title}</span>
-          <span>{props.artist}</span>
+        <div className={style.thumbNail}>
+          <Image
+          className={style.ImageHover}
+          src={props.src}
+          width={40}
+          height={40}
+          alt="MusicCard"
+          />
+          {/* <div className={style.PlayButton}><img src="/PlayButton.svg"></img></div> */}
+        </div>
+        <div className  ={style.TextPart}>
+          <span className={style.title}>{props.title}</span>
+          <span className={ style.artistName}>{props.artist}</span>
         </div>
       </div>
-      
+      <span className={style.heart}>heart</span>
     </div>
   )
 }

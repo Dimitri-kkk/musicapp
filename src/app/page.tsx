@@ -6,7 +6,7 @@ import MusicCard from "./Components/MusicListCard/MusicCard";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <MusicCard src='/next.svg' title="adasd" artist="anzora"/>
+      <MusicCard src='/Rectangle 8.svg' title="adasd" artist="anzora"/>
     </main>
   );
 }
