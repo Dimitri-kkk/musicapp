@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import style from './heart-button.module.scss';
 
-const HeartToggle = () => {
+const HeartButton = () => {
   const [liked, setLiked] = useState(false);
 
   const toggleLike = () => {
@@ -21,4 +21,4 @@ const HeartToggle = () => {
   );
 };
 
-export default HeartToggle;
+export default HeartButton;
