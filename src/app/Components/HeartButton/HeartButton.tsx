@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import style from './heart-button.module.scss';
+import style from './HeartButton.module.scss';
 
 const HeartButton = () => {
   const [liked, setLiked] = useState(false);
