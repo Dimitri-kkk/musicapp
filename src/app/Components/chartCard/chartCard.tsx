@@ -9,8 +9,7 @@ interface ChartProps {
     src: string;
 }
 
-  // Gets fetched data from back-end server like image url, title and songs, but since we dont have back-server yet, I'm gonna use imaginary "/charts/"
-  const ChartCard: React.FC<ChartProps> = ({ id, title, src }) => {
+  const ChartCard = ({ id, title, src }: ChartProps) => {
     return (
       <Link className={styles.main} href={`/charts/${id}`}>
         <div className={styles.chartContainer}>
@@ -22,10 +21,10 @@ interface ChartProps {
               height={200} 
             />
           </div>
-          <span>Chart title</span>
+          <span>{title}</span>
         </div>
       </Link>
     );
   }
-  // H1 component has hard-coded "Chart title", but I will change it and pass it as a prop element when we can fetch the actual data from the server
+  
   export default ChartCard;
