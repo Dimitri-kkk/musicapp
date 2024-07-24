@@ -1,42 +1,58 @@
 @import "../../styles/color.scss";
+
 .Container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 796px;
   height: 299px;
-  flex-shrink: 0;
   border-radius: 16px;
-  background: linear-gradient(270deg, #e2934b 7.1%, #d3620f 94.73%);
+  text-decoration: none;
 }
+
 .TitleContainer {
-  flex-direction: row;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
+
 .Title {
-  width: 252px;
   color: $White_Color;
   font-family: Inter;
   font-size: 48px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  margin: 0;
 }
-.year {
+
+.Year {
   color: $White_Color;
   font-family: Inter;
   font-size: 96px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  margin: 0;
 }
+
 .Button {
-  display: inline-flex;
-  padding: 14px 77px 15px 78px;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+  padding: 14px 77px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 8px;
+  color: $White_Color;
+  font-family: Inter;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.Button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .ArtistImage {
-  object-fit: cover;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
 }
