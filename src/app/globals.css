@@ -17,3 +17,28 @@ a {
   text-decoration: none;
 }
 
+.h1 {
+  font-size: 96px;
+  font-weight: 600px;
+}
+
+.h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.h3 {
+  font-size: 20px;
+}
+
+.h4 {
+  font-size: 16px;
+}
+
+.body1 {
+  font-size: 14px;
+}
+
+.body2 {
+  font-size: 12px;
+}
