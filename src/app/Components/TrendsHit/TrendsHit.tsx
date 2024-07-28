@@ -23,7 +23,15 @@ export const SectionTitle = (props: Props) => {
         <button className={styles.Button}>View Playlist</button>
       </div>
       <div className={styles.ArtistImage}>
-        <Image src={props.src} alt="Artist" width={418} height={299} />
+        <div className={styles.ImageWrapper}>
+          <Image
+            src={props.src}
+            alt="Artist"
+            layout="fill"
+            objectFit="cover"
+            className={styles.ArtistImage}
+          />
+        </div>
       </div>
     </Link>
   );

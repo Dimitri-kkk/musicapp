@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <SectionTitle
-        title="Trending Artists"
+        title="Trend Hits"
         background="linear-gradient(270deg, #e2934b 7.1%, #d3620f 94.73%)"
         year={2021}
         src="/Artist.png"

@@ -50,9 +50,11 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.ImageWrapper {
+  position: relative;
+  width: 418px;
+  height: 299px;
+}
 .ArtistImage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  object-fit: cover;
+  border-radius: 0 16px 16px 0;
 }
