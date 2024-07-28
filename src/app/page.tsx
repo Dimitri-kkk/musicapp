@@ -7,10 +7,8 @@ import { Header } from "./Components/Header/Header";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}> 
-      <Button title="Normal Button" />
-      <BigButton title="Big" />
-      <Header />
+      <div className={styles.description}>
+        <Header />
       </div>
     </main>
   );
