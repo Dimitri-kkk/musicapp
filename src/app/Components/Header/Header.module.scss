@@ -1,0 +1,40 @@
+@import "../../styles/styles.scss";
+
+.Container {
+  display: flex;
+  width: 100%;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 628px;
+  background-color: $Black_Color;
+  margin: 0;
+  box-sizing: border-box;
+}
+.LogoContainer {
+  display: flex;
+  width: 732px;
+  align-items: center;
+  gap: 207px;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+
+.Logo {
+  color: $White_Color;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ProfilePictureContainer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.ProfilePicture {
+  border-radius: 50%;
+  background-color: $Black_Color;
+}
