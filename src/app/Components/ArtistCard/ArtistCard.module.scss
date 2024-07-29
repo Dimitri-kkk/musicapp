@@ -1,0 +1,65 @@
+@import '../../styles/color.scss';
+
+.ParentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  
+  .ArtistContainer {
+    display: flex;
+    width: 180px;
+    height: 210px;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-color: $Black_Color;
+    transition: 0.5s;
+  
+    &:hover {
+      background-color: $Slate_Blue_Color;
+    }
+  }
+  
+  .ArtistPicture {
+    width: 150px;
+    height: 155px;
+    object-fit: cover; 
+    border-radius: 16px;
+  }
+
+  .ArtistInfoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    align-self: stretch;
+    text-align: center;
+  }
+
+  .ArtistName {
+    color: $White_Color;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .ArtistYear {
+    color: $Dark_Gray_Color;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+  }
+  
