@@ -7,49 +7,25 @@
   align-items: center;
   gap: 628px;
   background-color: $Black_Color;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.SearchContainer {
+.LogoContainer {
   display: flex;
-  width: 434px;
-  padding: 8px 16px;
-  flex-direction: row;
-  justify-content: flex-start;
+  width: 732px;
   align-items: center;
-  gap: 8px;
+  gap: 207px;
   flex-shrink: 0;
-  border-radius: 8px;
-  background-color: $Gray_Black_Color;
+  flex-direction: row;
 }
 
-.Search {
-  flex: 1;
+.Logo {
   color: $White_Color;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 32px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
-  border: none;
-  background: none;
-  outline: none;
-}
-
-.SearchButton {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.SearchIcon {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  margin-left: 8px;
 }
 
 .ProfilePictureContainer {

@@ -2,6 +2,7 @@
 
 import styles from "./Header.module.scss";
 import Image from "next/image";
+import { SearchBar } from "./SearchBar/SearchBar";
 
 export const Header = () => {
   const handleProfileClick = () => {
@@ -10,24 +11,10 @@ export const Header = () => {
 
   return (
     <div className={styles.Container}>
-      <h1 className={styles.Logo}>LOGO</h1>
-      <form className={styles.SearchContainer} action="/search" method="GET">
-        <button type="submit" className={styles.SearchButton}>
-          <Image
-            width={24}
-            height={24}
-            src="/search.svg"
-            alt="Search Icon"
-            className={styles.SearchIcon}
-          />
-        </button>
-        <input
-          className={styles.Search}
-          type="text"
-          placeholder="Search.."
-          name="search"
-        />
-      </form>
+      <div className={styles.LogoContainer}>
+        <h1 className={styles.Logo}>LOGO</h1>
+        <SearchBar />
+      </div>
       <div
         onClick={handleProfileClick}
         className={styles.ProfilePictureContainer}
