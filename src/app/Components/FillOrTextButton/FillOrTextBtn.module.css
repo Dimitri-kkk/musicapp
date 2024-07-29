@@ -1,0 +1,25 @@
+.btn {
+    padding: 14px 77px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+
+
+.filled {
+    background-color: #0F0F0F;
+    color: #ffffff;
+    border: none;
+}
+  
+.textOnly {
+    background-color: #232323;
+    color: #ffffff;
+    border: 2px solid #1a1a2e;
+}
+  
+.btn:hover {
+    background-color: #33334d;
+}
