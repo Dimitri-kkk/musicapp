@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chartImage {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 20px 12px 20px;
+    border: 3px;
+    width: 150px;
+}
+
+.chartContainer {
+    border-radius: 16px;
+    width: 190px;
+    height: 280px;
+    background-color: #161616;
+}
+
+.chartContainer span {
+    margin: 0px 20px 20px 20px;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 19px;;
+}
