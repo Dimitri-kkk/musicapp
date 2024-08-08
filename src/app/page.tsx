@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import MusicCard from "./Components/MusicListCard/MusicCard";
+import MusicListCard from "./Components/MusicListCard/MusicListCard/MusicListCard";
+import MusicList from "./Components/MusicListCard/MusicList";
 
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <MusicCard src='/Rectangle 8.svg' title="adasd" artist="anzora"/>
+      <MusicList/>
     </main>
   );
 }
